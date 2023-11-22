@@ -1,0 +1,48 @@
+.rodape{
+background: #afacacee;
+position: fixed;
+bottom: 0;
+width: 100%;
+max-height: 10;
+color: rgb(5, 5, 5)
+};
+
+.div-centralizada{
+    display: grid;
+    place-items: center;  
+}
+
+.container-central{
+    width: 90%;
+    margin-left: 5%;
+    background: rgba(255, 255, 255, 0.836);
+    height: 90%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .thumbnail {
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .image:hover .thumbnail {
+    display: block;
+    opacity: 1;
+  }
+
+
+
+  
+  
+
+  
