@@ -11,9 +11,9 @@
 </head>
 
 <body class="img-fluid" background="../imgs/OTS-hero-banner-v02.webp">
-
+    <img src="../imgs/animation/neve.gif" id="img-neve">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand" href="../index.html" target="_blank">
+        <a class="navbar-brand" href="../index.html" target="">
             <img src="../imgs/Logo/logo_transparente.png" alt="FateCARDS logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -24,16 +24,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto ">
                 <li class="nav-item active">
-                    <a class="nav-link bg-success" href="promocoes.html"><b>Promoções</b> <img src="../imgs/icons/percent.svg" alt="">
+                    <a class="nav-link bg-success" href="promocoes.html"><b>Promoções</b> <img
+                            src="../imgs/icons/percent.svg" alt="">
                         <source>
                         </img><span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle " href="../Paginas/yugioh_cards.html" role="button" data-toggle="dropdown"
-                        aria-expanded="false">
-                        <b>Yu-Gi-OH!</b> <img class="icons-img" src="../imgs/icons/yugioh-background-card.jpg" alt=""><span
-                            class="sr-only">(current)</span>
+                    <a class="nav-link dropdown-toggle " href="../Paginas/yugioh_cards.html" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        <b>Yu-Gi-OH!</b> <img class="icons-img" src="../imgs/icons/yugioh-background-card.jpg"
+                            alt=""><span class="sr-only">(current)</span>
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="../Paginas/yugioh_cards.html">ERA DO SOBERANO! <span
@@ -42,10 +43,10 @@
                 </li><!--fim dropdown YU GI OH -->
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="../Paginas/pokemon_cards.html" role="button" data-toggle="dropdown"
-                        aria-expanded="false">
-                        <b>Pokemon </b><img class="icons-img" src="../imgs/icons/pokemon-background-card.jpg" alt=""><span
-                            class="sr-only">(current)</span>
+                    <a class="nav-link dropdown-toggle" href="../Paginas/pokemon_cards.html" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        <b>Pokemon </b><img class="icons-img" src="../imgs/icons/pokemon-background-card.jpg"
+                            alt=""><span class="sr-only">(current)</span>
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="../Paginas/pokemon_cards.html">FENDA PARADOXAL <span
@@ -62,56 +63,59 @@
             </ul>
         </div> <!--fim Barra cabeçalho-->
     </nav> <!--fim da NAV BAR-->
+    <div class="container">
+        <div class="container-central border-dark">
+            <div class="div-centralizada">
+                <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="">
+                                <img src="../imgs/yugioh_age_of_overlord.png" class="d-block w-100"
+                                    alt="Era do Soberano">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imgs/magic_lord_of_rings.png" class="d-block w-100" alt="Kingdoms of Intrigue">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imgs/pokemon_fenda_paradoxal.png" class="d-block w-100" alt="Fenda Paradoxal">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </button>
+                </div> <!-- fim carrosel -->
 
-    <div class="container-central border-dark">
-        <div class="div-centralizada">
-            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="">
-                            <img src="../imgs/yugioh_age_of_overlord.png" class="d-block w-100" alt="Era do Soberano">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../imgs/magic_lord_of_rings.png" class="d-block w-100" alt="Kingdoms of Intrigue">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../imgs/pokemon_fenda_paradoxal.png" class="d-block w-100" alt="Fenda Paradoxal">
-                    </div>
+                <div class="border border-dark">
+                    <h1>
+                        <span class="badge badge-info"><b>Feliz Natal!</b><img class="icons-img"
+                                src="../imgs/icons/natal-arvore.png" alt=""></span>
+                    </h1>
+                </div><!-- fim titulo novidades -->
+
+                <div class="p-3 bg-primary text-white text-center border">
+                    <h2> <b>Senhor dos Anéis - Contos da terra média </b><span
+                            class="badge badge-warning"><b>Coleção</b></span> </h2>
                 </div>
-                <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval"
-                    data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval"
-                    data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Próximo</span>
-                </button>
-            </div> <!-- fim carrosel -->
-
-            <div class="border border-dark">
-                <h1>
-                    <span class="badge badge-info"><b>Feliz Natal!</b><img class="icons-img"
-                            src="../imgs/icons/natal-arvore.png" alt=""></span>
-                </h1>
-            </div><!-- fim titulo novidades -->
-
-            <div class="p-3 bg-primary text-white text-center border">
-                <h2> <b>Senhor dos Anéis - Contos da terra média </b><span class="badge badge-warning"><b>Coleção</b></span>  </h2>
             </div>
             <div class="div-alignitens">
                 <div class="row">
                     <div class="col">
                         <div class="card badge-light  shadow-lg  rounded text-center">
-                            <h5 class="card-title text-danger"><b>Absol</b></h5>
-                            <img src="../imgs/cartas/pokemon/absol.jpg" class="card-img-top" alt="...">
+                            <h6 class="card-title text-danger"><b>A Canção do Banho</b></h6>
+                            <img src="../imgs/cartas/magic/a-cancao-do-banho.jpg" class="card-img-top" alt="...">
                             <DIV class="row">
                                 <div class="col-sm">
                                     <h5 class="card-title text-dark">Un. <b>1</b></h5>  
@@ -127,8 +131,8 @@
                     </div>
                     <div class="col">
                         <div class="card badge-light  shadow-lg  rounded text-center">
-                            <h5 class="card-title text-danger"><b>Aegislash</b></h5>
-                            <img src="../imgs/cartas/pokemon/aegislash.jpg" class="card-img-top" alt="...">
+                            <h6 class="card-title text-danger"><b>Açoite do Balrog</b></h6>
+                            <img src="../imgs/cartas/magic/acoite-do-balrog.jpg" class="card-img-top" alt="...">
                             <DIV class="row">
                                 <div class="col-sm">
                                     <h5 class="card-title text-dark">Un. <b>1</b></h5>  
@@ -144,8 +148,8 @@
                     </div>
                     <div class="col">
                         <div class="card badge-light  shadow-lg  rounded text-center">
-                            <h5 class="card-title text-danger"><b>Altaria (EX)</b></h5>
-                            <img src="../imgs/cartas/pokemon/altariaEx.jpg" class="card-img-top" alt="...">
+                            <h6 class="card-title text-danger"><b>Agressor Goblin</b></h6>
+                            <img src="../imgs/cartas/magic/agressor-goblin.jpg" class="card-img-top" alt="...">
                             <DIV class="row">
                                 <div class="col-sm">
                                     <h5 class="card-title text-dark">Un. <b>1</b></h5>  
@@ -161,8 +165,8 @@
                     </div>
                     <div class="col">
                         <div class="card badge-light  shadow-lg  rounded text-center">
-                            <h5 class="card-title text-danger"><b>Armarouge (EX)</b></h5>
-                            <img src="../imgs/cartas/pokemon/arma-rougueEx.jpg" class="card-img-top" alt="...">
+                            <h6 class="card-title text-danger"><b>Aragorn e Arwen, Casados</b></h6>
+                            <img src="../imgs/cartas/magic/aragorn-e-arwen-casados.jpg" class="card-img-top" alt="...">
                             <DIV class="row">
                                 <div class="col-sm">
                                     <h5 class="card-title text-dark">Un. <b>1</b></h5>  
@@ -178,8 +182,8 @@
                     </div>
                     <div class="col">
                         <div class="card badge-light  shadow-lg  rounded text-center">
-                            <h5 class="card-title text-danger"><b>Blastoise (EX)</b></h5>
-                            <img src="../imgs/cartas/pokemon/bastoise.jpg" class="card-img-top" alt="...">
+                            <h6 class="card-title text-danger"><b>Arco Galadhrin</b></h6>
+                            <img src="../imgs/cartas/magic/arco-galadhrin.jpg" class="card-img-top" alt="...">
                             <DIV class="row">
                                 <div class="col-sm">
                                     <h5 class="card-title text-dark">Un. <b>1</b></h5>  
@@ -195,87 +199,105 @@
                     </div>
                 </div>
             </div> 
+            <!-- Promoções -->
             <div class="div-alignitens">  
                 <div class="row">
                     <div class="col">
                         <div class="card badge-light  shadow-lg  rounded text-center">
-                            <h5 class="card-title text-danger"><b>Boneco de Snorlax</b></h5>
-                            <img src="../imgs/cartas/pokemon/boneco-do-snorlax.jpg" class="card-img-top" alt="...">
+                            <h5 class="card-title text-danger"><b>Arwen Rainha Mortal</b></h5>
+                            <img src="../imgs/cartas/magic/arwen-rainha-mortal.jpg" class="card-img-top" alt="...">
                             <DIV class="row">
                                 <div class="col-sm">
                                     <h5 class="card-title text-dark">Un. <b>1</b></h5>  
                                 </div>
                                 <div class="col-sm">
-                                    <h4 class="text-success"><b>R$ 99,99</b>
-                                        <P></P>
-                                    </h4>
+                                    <h6 class="text-secondary"><s><b>R$ 99,99</b></s>
+                
+                                    </h6>
+                                    
                                 </div>  
+                            </DIV>
+                            <DIV class="ROW">
+                                <h4 class="alert alert-success">R$<b> 10,00</b></h4>        
                             </DIV>
                             <a href="#" class="btn btn-primary">Detalhes <img src="../imgs/icons/search.svg" alt=""></a>
                         </div> <!--Exemplo card-->
                     </div>
                     <div class="col">
                         <div class="card badge-light  shadow-lg  rounded text-center">
-                            <h5 class="card-title text-danger"><b>Deoxys</b></h5>
-                            <img src="../imgs/cartas/pokemon/deoxys.jpg" class="card-img-top" alt="...">
+                            <h5 class="card-title text-danger"><b>Calção do Bombadil</b></h5>
+                            <img src="../imgs/cartas/magic/calcao-do-bombadil.jpg" class="card-img-top" alt="...">
                             <DIV class="row">
                                 <div class="col-sm">
                                     <h5 class="card-title text-dark">Un. <b>1</b></h5>  
                                 </div>
                                 <div class="col-sm">
-                                    <h4 class="text-success"><b>R$ 99,99</b>
-                                        <P></P>
-                                    </h4>
+                                    <h6 class="text-secondary"><s><b>R$ 99,99</b></s>
+                
+                                    </h6>
+                                    
                                 </div>  
+                            </DIV>
+                            <DIV class="ROW">
+                                <h4 class="alert alert-success">R$<b> 10,00</b></h4>        
                             </DIV>
                             <a href="#" class="btn btn-primary">Detalhes <img src="../imgs/icons/search.svg" alt=""></a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card badge-light  shadow-lg  rounded text-center">
-                            <h5 class="card-title text-danger"><b>Energia Medicinal</b></h5>
-                            <img src="../imgs/cartas/pokemon/energia-medicinal.jpg" class="card-img-top" alt="...">
+                            <h5 class="card-title text-danger"><b>Espectros do Anel</b></h5>
+                            <img src="../imgs/cartas/magic/espectros-do-anel.jpg" class="card-img-top" alt="...">
                             <DIV class="row">
                                 <div class="col-sm">
                                     <h5 class="card-title text-dark">Un. <b>1</b></h5>  
                                 </div>
                                 <div class="col-sm">
-                                    <h4 class="text-success"><b>R$ 99,99</b>
-                                        <P></P>
-                                    </h4>
+                                    <h6 class="text-secondary"><s><b>R$ 99,99</b></s>
+                
+                                    </h6>
+                                    
                                 </div>  
+                            </DIV>
+                            <DIV class="ROW">
+                                <h4 class="alert alert-success">R$<b> 10,00</b></h4>        
                             </DIV>
                             <a href="#" class="btn btn-primary">Detalhes <img src="../imgs/icons/search.svg" alt=""></a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card badge-light  shadow-lg  rounded text-center">
-                            <h5 class="card-title text-danger"><b>Energia Reversa</b></h5>
-                            <img src="../imgs/cartas/pokemon/energia-reversa.jpg" class="card-img-top" alt="...">
+                            <h5 class="card-title text-danger"><b>Frodo Bolseiro</b></h5>
+                            <img src="../imgs/cartas/magic/frodo-bolseiro.jpg" class="card-img-top" alt="...">
                             <DIV class="row">
                                 <div class="col-sm">
                                     <h5 class="card-title text-dark">Un. <b>1</b></h5>  
                                 </div>
                                 <div class="col-sm">
-                                    <h4 class="text-success"><b>R$ 99,99</b>
-                                        <P></P>
-                                    </h4>
+                                    <h6 class="text-secondary"><s><b>R$ 99,99</b></s>
+                                    </h6>
+                                    
                                 </div>  
+                            </DIV>
+                            <DIV class="ROW">
+                                <h4 class="alert alert-success">R$<b> 10,00</b></h4>        
                             </DIV>
                             <a href="#" class="btn btn-primary">Detalhes <img src="../imgs/icons/search.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
-            </div>       
-        </div><!--fim  pokemon-->
-    </div>   
+            </div>
+            </div><!--fim  pokemon-->
+        </div>
+    </div>
+
     <hr>
     <hr>
-    <div class="rodape">  
+    <div class="rodape">
         <p>&copy; <b>Gabriel Lima dos Santos e Lucas Ultramari</b> - Fatec Jahu</p>
-    </div> 
-    
-    
+    </div>
+
+
 
 
 
